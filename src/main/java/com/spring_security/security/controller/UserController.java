@@ -10,7 +10,7 @@ public class UserController {
     private UserRepository customerRepo;
     @GetMapping("/message")
     public String getMessage(){
-        return "Hello world";
+        return "Hello you are JWT Authenticated";
     }
 
 //    @GetMapping("/{email}")
